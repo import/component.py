@@ -30,4 +30,4 @@ danielchatfield-example-component/
 
 This component has a python file, an html template file and a stylesheet. Often python components will just have python files.
 
-To see more implementation details check out the [WIP spec](/spec.md/)
+To see more implementation details check out the [WIP spec](https://github.com/import/component.py/wiki/Spec-for-Component.py)
