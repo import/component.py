@@ -8,11 +8,11 @@ Right now this is just a collection of vague ideas in my head which over time wi
 
 You can open an issue detailing any concerns you may have or functionality you desire.
 
-## What is wrong with pypi?
+## What is wrong with PyPI?
 
 Lot's of things, which I can't be bothered to actually write out now so just imagine a list of compelling reasons and nod slowly and think to yourself "hmm, yep he is right".
 
-## Basic idea
+## Basic Idea
 
 If you don't know what component(1) is then go and [check that out](https://github.com/component/component/) first.
 
@@ -30,10 +30,4 @@ danielchatfield-example-component/
 
 This component has a python file, an html template file and a stylesheet. Often python components will just have python files.
 
-### Consuming components in python
-
-```python
-from component import require
-
-example_component = require("example-component")
-```
+To see more implementation details check out the [WIP spec](/spec.md/)
