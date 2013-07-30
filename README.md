@@ -1,6 +1,6 @@
 # component.py
 
-[![Build Status](https://travis-ci.org/import/component.png)](https://travis-ci.org/import/component)
+[![Build Status](https://travis-ci.org/import/component.py.png)](https://travis-ci.org/import/component.py)
 
 
 Component.py is a python library that makes using [component(1)](https://github.com/component/component/) components from within your python application easy.
