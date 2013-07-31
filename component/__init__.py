@@ -10,8 +10,10 @@ component(1) with a python workflow.
     :license: MIT, see LICENSE for details.
 """
 
+
 def require(component_name, package_name=None):
     pass
+
 
 def export(object):
     pass
