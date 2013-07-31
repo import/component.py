@@ -11,7 +11,7 @@ install:
 
 script:
  - pep8 component
- - coverage run run_tests.py --source=component
+ - coverage run --source=component run_tests.py
 
 after_success:
  - coveralls
