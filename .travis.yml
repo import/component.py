@@ -7,7 +7,11 @@ python:
 
 install:
  - python setup.py install
- - pip install pytest
+ - pip install -r requirements_dev.txt --use-mirrors
 
 script:
- - py.test tests.py
+ - pep8 component
+ - coverage run run_tests.py --source=component
+
+after_success:
+ - coveralls
