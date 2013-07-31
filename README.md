@@ -1,4 +1,4 @@
-# component.py [![Build Status](https://travis-ci.org/import/component.py.png)](https://travis-ci.org/import/component.py)
+# component.py [![Build Status](https://travis-ci.org/import/component.py.png)](https://travis-ci.org/import/component.py) [![Coverage Status](https://coveralls.io/repos/import/component.py/badge.png?branch=master)](https://coveralls.io/r/import/component.py?branch=master)
 
 
 
