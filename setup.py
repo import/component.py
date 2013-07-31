@@ -6,11 +6,12 @@ except ImportError:
 
 setup(
     name='component',
+    version='0.0.1',
+    license='MIT',
     author='Daniel Chatfield',
     author_email='chatfielddaniel@gmail.com',
-    version='0.0.1',
     url='http://github.com/import/component',
-    py_modules=['component'],
+    packages=['component', 'component.modules'],
     description='A python library that makes component(1) play nicely with python.',
     zip_safe=False,
     classifiers=[
