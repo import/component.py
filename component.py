@@ -15,16 +15,18 @@ import sys
 
 setup_done = False
 
+
 def setup(base_dir=None, depth=1, directory='bower_components'):
     """Helper function that fixes python path.
-    
+
     :param base_dir: Pass __file__ so component knows where your application
                      files are.
-    :param depth: The number of times `os.path.dirname()` needs to be called 
-                  on `base_dir` to get the folder immediately above
-                  bower_components Defaults to 1.
-    :param directory: The directory defined in .bowerrc (where the 
-                      components are installed to). Defaults to `bower_components`.
+    :param depth: The number of times `os.path.dirname()` needs to be
+                  called on `base_dir` to get the folder immediately
+                  above bower_components Defaults to 1.
+    :param directory: The directory defined in .bowerrc (where the
+                      components are installed to). Defaults to
+                      `bower_components`.
     """
     if setup_done:
         return
