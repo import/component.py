@@ -11,8 +11,9 @@ setup(
     author='Daniel Chatfield',
     author_email='chatfielddaniel@gmail.com',
     url='http://github.com/import/component',
-    packages=['component', 'component.modules'],
-    description='A python library that makes component(1) play nicely with python.',
+    py_modules=['component'],
+    description='A python library that makes is easy to consume bower '
+                'components with python.',
     zip_safe=False,
     classifiers=[
         'License :: OSI Approved :: MIT License',
