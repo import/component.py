@@ -41,6 +41,8 @@ def setup(base_dir=None, depth=1, directory='bower_components'):
 
     sys.path.insert(0, bower_path)
 
+    setup_done = True
+
 
 def up_a_level(current_pointer):
     """A helper function to traverse up a level of the filesystem"""
