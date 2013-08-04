@@ -3,8 +3,8 @@
     component
     ~~~~~~~~~
 
-    A module that implements various helper functions to help consume bower
-    components from python.
+    A module that implements various helper functions to help consume
+    components from popular package managers like bower.
 
     :copyright: (c) 2013 by Daniel Chatfield
     :license: MIT, see LICENSE for details.
@@ -16,7 +16,7 @@ import sys
 setup_done = False
 
 
-def setup(base_dir=None, depth=1, directory='bower_components'):
+def setup(base_dir=None, depth=1, directory='components'):
     """Helper function that fixes python path.
 
     :param base_dir: Pass __file__ so component knows where your application
@@ -24,9 +24,8 @@ def setup(base_dir=None, depth=1, directory='bower_components'):
     :param depth: The number of times `os.path.dirname()` needs to be
                   called on `base_dir` to get the folder immediately
                   above bower_components Defaults to 1.
-    :param directory: The directory defined in .bowerrc (where the
-                      components are installed to). Defaults to
-                      `bower_components`.
+    :param directory: The directory where the components are installed to. 
+                      Defaults to `components`.
     """
     if setup_done:
         return
