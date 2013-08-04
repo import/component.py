@@ -27,6 +27,7 @@ def setup(base_dir=None, depth=1, directory='components'):
     :param directory: The directory where the components are installed to.
                       Defaults to `components`.
     """
+    global setup_done
     if setup_done:
         return
 
