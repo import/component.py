@@ -24,7 +24,7 @@ def setup(base_dir=None, depth=1, directory='components'):
     :param depth: The number of times `os.path.dirname()` needs to be
                   called on `base_dir` to get the folder immediately
                   above bower_components Defaults to 1.
-    :param directory: The directory where the components are installed to. 
+    :param directory: The directory where the components are installed to.
                       Defaults to `components`.
     """
     if setup_done:
