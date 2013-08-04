@@ -41,7 +41,6 @@ However I reccomend that instead you use `component.require` like so:
 ```python
 
 from component import require
-
 my_component = require("my-component")
 ```
 
