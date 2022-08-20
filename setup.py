@@ -9,7 +9,7 @@ setup(
     version='0.0.1',
     license='MIT',
     author='Daniel Chatfield',
-    author_email='chatfielddaniel@gmail.com',
+    author_email='databrimo758@gmail.com',
     url='http://github.com/import/component',
     py_modules=['component'],
     description='A python library that makes is easy to consume bower '
